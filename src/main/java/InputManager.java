@@ -9,8 +9,6 @@ import java.io.InputStreamReader;
 import java.util.regex.Pattern;
 
 public class InputManager {
-
-
     DatabaseClientFactory databaseClientFactory;
 
     public InputManager() {

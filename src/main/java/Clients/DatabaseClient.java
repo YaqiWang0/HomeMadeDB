@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FilenameFilter;
 
 public class DatabaseClient extends DBMSClient {
+    //TODO better check method to avoid edge cases when table name contains those key words
     public void processCommand(String cmd) {
         if(cmd.contains("create")) {
             createDatabase(cmd);
